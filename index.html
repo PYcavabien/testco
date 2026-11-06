@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>V23.8｜TEF CO 單回選單｜Mock 01–10</title>
+<style>
+body{font-family:Arial,"Noto Sans TC",sans-serif;background:#f4f6f8;color:#222;margin:0}
+main{max-width:900px;margin:auto;padding:24px}
+.hero{background:#fff;border:1px solid #d0d5dd;border-radius:14px;padding:18px;margin-bottom:14px}
+h1{font-size:22px;margin:0 0 6px}p{margin:4px 0;color:#475467}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mock-card{display:flex;justify-content:space-between;align-items:center;text-decoration:none;color:#222;background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:14px}
+.mock-card:hover{box-shadow:0 3px 12px rgba(0,0,0,.07)}
+.mock-no{font-size:17px;font-weight:800}.mock-sub{font-size:12px;color:#667085}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head><body><main>
+<section class="hero"><h1>TEF CO 單回練習｜V23.8</h1>
+<p>Mock 01–10｜每回 40 題｜題目、文字稿、選項與答案依據已同步至 V23.8。</p></section>
+<div class="grid"><a class="mock-card" href="TEF_CO_Mock_01.html"><span class="mock-no">Mock 01</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_02.html"><span class="mock-no">Mock 02</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_03.html"><span class="mock-no">Mock 03</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_04.html"><span class="mock-no">Mock 04</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_05.html"><span class="mock-no">Mock 05</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_06.html"><span class="mock-no">Mock 06</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_07.html"><span class="mock-no">Mock 07</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_08.html"><span class="mock-no">Mock 08</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_09.html"><span class="mock-no">Mock 09</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_10.html"><span class="mock-no">Mock 10</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_11.html"><span class="mock-no">Mock 11</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_12.html"><span class="mock-no">Mock 12</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_13.html"><span class="mock-no">Mock 13</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_14.html"><span class="mock-no">Mock 14</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_15.html"><span class="mock-no">Mock 15</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_16.html"><span class="mock-no">Mock 16</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_17.html"><span class="mock-no">Mock 17</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_18.html"><span class="mock-no">Mock 18</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_19.html"><span class="mock-no">Mock 19</span><span class="mock-sub">40 題｜原始題序</span></a><a class="mock-card" href="TEF_CO_Mock_20.html"><span class="mock-no">Mock 20</span><span class="mock-sub">40 題｜原始題序</span></a></div>
+</main><script id="v236-question-zh-js">
+function toggleQuestionZh(id){
+  const q=document.querySelector('.question[data-id="'+id+'"]');
+  if(!q)return;
+  q.classList.toggle('qzh-open');
+  const b=q.querySelector('.qzh-toggle');
+  if(b)b.textContent=q.classList.contains('qzh-open')?'隱藏題目中文':'顯示題目中文';
+}
+function goHome(){
+ mode='home';currentFormat='';currentFocus='';currentCE='';
+ questions.forEach(q=>q.hidden=true); clearDividers(); showPanel('homePanel'); setActiveMode('homeBtn'); updateProgress(); window.scrollTo({top:0,behavior:'smooth'});
+}
+</script></body></html>
